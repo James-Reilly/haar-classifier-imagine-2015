@@ -1,0 +1,46 @@
+Want me to take a shot at it? I might be able to find out whats happening in the process
+
+sure. were just trying to identify an image of george jetson. All of our training sets are with different lightings and such (i think we may need to crop them more though)
+thanks again so much for your help
+
+Yeah I was just thinking the same about the cropping. Yeah good job on the smaples. I'll keep you updated. I'll start it up now
+
+looking good so far
+
+Thats like 10 times faster than what we're getting
+
+i cropped the images a bit and used more memory haha
+
+yeah i usually just chop off some of the excess background. they  don't have to be uniform haha just gotta keep that ratio
+
+So they have to all be 4 by 3, but the size doesn't matter?
+
+not nessisarily that exact ratio, it hust has to be the same ratio you used when you created the sample. but yeah size doesn't matter
+
+I'd love to see your cropped images and commands you ran so I can work through it all correctly
+
+sure! i'll put the cropped images on the repo. And it just takes some tweeking sometimes to get alll the parameters just right
+
+I'm going to re-run the training because the ratio was off. Since the guy is taller than he is wide, i need to use a taller height for the sample
+
+look at this
+after stage 0 its finding it.
+
+no problem! when it's done i'll push it to the repo
+
+Yeah I will when I get. A chance tonight. I'll also upload the commands I used in a pdf
+
+Thanks!
+
+Yeah I  fell asleep early last night lol sorry about that
+
+So make sure you use at least 7 GB for both values (or a little under half mem for each)
+
+Crop a bit of the side of the images off. Equal on both sides
+
+does every positive image have to keep the same width to height ratio?
+and what exactly determines the w and h parameters
+
+Yeah within a tolerance. It doesn't have to be excat. And those determine the ratio of the width to the height of the objects you are trying to find
+
+I've found that 24 width and 48 height work well for your guy
