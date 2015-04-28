@@ -4,10 +4,11 @@ import numpy
 import cv2
 
 def detect(img):
-    cascade = cv2.CascadeClassifier("stage4.xml")
+    cascade = cv2.CascadeClassifier("cascade20.xml")
     rects = cascade.detectMultiScale(img, 1.3, 4, cv2.cv.CV_HAAR_SCALE_IMAGE, (50,50))
 
     if len(rects) == 0:
+	print("WHERE THE FUCK IS MY GEORGY")
         return [], img
     rects[:, 2:] += rects[:, :2]
     return rects, img
@@ -18,7 +19,7 @@ def box(rects, img):
     #cv2.imwrite('one.jpg', img);
 
 
-img = cv2.imread("scaling2.jpg")
+img = cv2.imread("scaling24.jpg")
 rects, img = detect(img)
 box(rects, img)
-cv2.imwrite("frame2.jpg", img)
+cv2.imwrite("fred_frame.jpg", img)
