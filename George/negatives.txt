@@ -1,3 +1,5 @@
+./negative_images/calvin.jpg
+./negative_images/marvin.jpg
 ./negative_images/neg-0002.jpg
 ./negative_images/neg-0003.jpg
 ./negative_images/neg-0004.jpg
@@ -2911,6 +2913,7 @@
 ./negative_images/neg-4873.jpg
 ./negative_images/neg-4874.jpg
 ./negative_images/neg-4875.jpg
+./negative_images/roadrunner.jpg
 ./negative_images/UMD_001.jpg
 ./negative_images/UMD_002.jpg
 ./negative_images/UMD_003.jpg
